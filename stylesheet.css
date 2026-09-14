@@ -1,1 +1,87 @@
-ECHO is on.
+body {
+  background-color: rgb(25, 23, 23);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  color: rgb(245, 18, 18);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-head {
+  background-color: #737373;
+  color: #ba1616;
+}
+
+.body-table{
+    color: #EAEAEA;
+}
+
+.table-head tr,
+.body-table tr {
+  display: flex;
+}
+
+.nomor {
+  flex: 0 0 5%;
+}
+
+.judul {
+  flex: 0 0 15%;
+}
+
+.tahun {
+  flex: 0 0 4%;
+}
+
+.genre {
+  flex: 0 0 12%;
+}
+
+.rating {
+  flex: 0 0 10%;
+}
+
+.sinopsis {
+  flex: 1;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #555555;
+  padding: 10px;
+}
+
+.nomor,
+.tahun,
+.rating {
+  text-align: center;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+.table-head .sinopsis {
+  text-align: center;
+}
+
+.body-table .sinopsis {
+  text-align: justify;
+}
+
+.rating {
+  color: rgb(206, 152, 14);
+  font-weight: bold;
+}
+
+.body-table tr:hover {
+  background-color: #1A1A1A;
+}
